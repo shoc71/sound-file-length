@@ -10,7 +10,7 @@ def audio_start():
     print("pip install mutagen")
     print("created by mystery_orbs")
 
-    user_input = r"C:\users\sonu.singh\music"
+    user_input = r"C:\users\shoc71\music" #user-input for file-path
 
     filepath = user_input #this can be removed
     for sound_file in os.listdir(filepath):# - mutagen can't accept lists
