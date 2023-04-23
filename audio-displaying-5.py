@@ -3,7 +3,7 @@ from mutagen.mp3 import MP3# - fuk dis shit, only accept strings with .mp3 at th
 from mutagen.wave import WAVE#Ogg doesnt exist on mutagen library
 
 print("this is a program that will display all the music lengths that you want")
-print("Example - C:\\Users\\Sonu.Singh\\Downloads")
+print("Example - C:\\Users\\shoc71\\Downloads")
 print("complete the following downloads on your computer on cmd")
 print("pip install os")
 print("pip install mutagen")
@@ -43,7 +43,7 @@ while user_input1 != "quit":
         break
 
     filepath = user_input #this can be removed
-    filepath = r"C:\Users\Sonu.Singh\Desktop\mystorbius\test"
+    filepath = r"C:\Users\shoc71\Desktop\mystorbius\test"
     for sound_file in os.listdir(filepath):# - mutagen can't accept lists
         filenames = os.path.join(filepath, sound_file) #the most important step / slapping the path and file together
         if sound_file.endswith(".mp3"):
